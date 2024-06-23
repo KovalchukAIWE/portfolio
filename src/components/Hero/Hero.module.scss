@@ -1,0 +1,35 @@
+.hero {
+  &__title {
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  &__avatar {
+    width: 200px;
+    display: block;
+  }
+
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__imageOne {
+    width: 300px;
+  }
+
+  &__imageTwo {
+    width: 200px;
+  }
+
+  &__imageThree {
+    width: 200px;
+  }
+}
