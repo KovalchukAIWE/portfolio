@@ -10,26 +10,70 @@
     font-size: 32px;
     text-align: center;
   }
+  
+  &__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
 
   &__avatar {
     width: 200px;
     display: block;
+    border-radius: 50%;
   }
 
-  &__images {
-    display: flex;
-    flex-wrap: wrap;
+  &__image {
+    width: 100px;
+    position: absolute;
   }
 
   &__imageOne {
-    width: 300px;
+    right: 200px;
+    top: 145px;
   }
 
   &__imageTwo {
-    width: 200px;
+    right: 200px;
+    top: 50px;
   }
 
   &__imageThree {
-    width: 200px;
+    right: 325px;
+    top: 0;
+  }
+
+  &__imageFour {
+    right: 220px;
+    bottom: 50px;
+  }
+
+  &__imageFive {
+    left: 210px;
+    bottom: 30px;
+  }
+
+  &__imageSix {
+    left: 200px;
+    top: 145px;
+  }
+
+  &__imageSeven {
+    left: 210px;
+    top: 50px;
+  }
+
+  &__imageEight {
+    left: 230px;
+    top: 50px;
+  }
+
+  &__imageNine {
+    left: 350px;
+    bottom: 0;
   }
 }

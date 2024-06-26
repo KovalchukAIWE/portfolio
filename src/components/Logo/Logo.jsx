@@ -6,7 +6,6 @@ const Logo = () => {
       <a href="#" className={styles.logo__link}>
         <svg>
           <g
-            id="SvgjsG1406"
             transform="matrix(2.35215048939386,0,0,2.35215048939386,123.94354853181842,5.71774041590659)"
             fill="#d7eef2"
           >

@@ -1,0 +1,17 @@
+.intro {
+  background-color: #4d7e86;
+  padding: 20px 0 200px;
+
+  &__content {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
