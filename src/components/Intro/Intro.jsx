@@ -1,4 +1,4 @@
-import styles from "./intro.module.scss";
+import styles from "./Intro.module.scss";
 
 const Intro = () => {
   return (

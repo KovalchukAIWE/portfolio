@@ -8,5 +8,38 @@
     background-color: white;
     margin: 0 auto;
     padding: 50px;
+    box-shadow: 0 6px 8.3px 6px rgba(95, 95, 95, 0.04);
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &__blocks {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block {
+    background-color: #4d7e86;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    max-width: 250px;
+    width: 100%;
+  }
+
+  &__blockTitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
   }
 }
