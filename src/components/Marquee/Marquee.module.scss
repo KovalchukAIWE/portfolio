@@ -1,0 +1,9 @@
+.marquee {
+  background-color: white;
+  
+  &__item {
+    font-size: 20px;
+    padding: 3px 12px;
+    border-right: 1px solid #4d7e86;
+  }
+}

@@ -1,12 +1,9 @@
 .skills {
-  transform: translateY(-100px);
 
   &__wrapper {
-    max-width: 900px;
-    width: 100%;
+    transform: translateY(-100px);
     border-radius: 20px;
     background-color: white;
-    margin: 0 auto;
     padding: 50px;
     box-shadow: 0 6px 8.3px 6px rgba(95, 95, 95, 0.04);
   }
@@ -15,25 +12,31 @@
     text-align: center;
     font-size: 32px;
     font-weight: 600;
+    margin-bottom: 16px;
   }
 
   &__subtitle {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 16px;
   }
 
   &__blocks {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+
+    @media screen and (max-width: 991px) {
+        flex-direction: column;
+      }
   }
 
   &__block {
     background-color: #4d7e86;
-    padding: 15px;
+    padding: 15px 15px 15px 30px;
     border-radius: 8px;
     color: white;
-    max-width: 250px;
     width: 100%;
   }
 
@@ -41,5 +44,14 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  &__blockItem {
+    margin-bottom: 4px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }

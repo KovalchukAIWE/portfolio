@@ -1,6 +1,6 @@
 .work {
   background-color: #4d7e86;
-  padding: 20px 0 200px;
+  padding: 20px 0 50px;
 
   &__content {
     max-width: 700px;
@@ -13,5 +13,12 @@
   &__title {
     font-size: 32px;
     font-weight: 600;
+    margin-bottom: 16px;
   }
+
+    &__text {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
 }

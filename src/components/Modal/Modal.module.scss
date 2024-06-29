@@ -22,8 +22,7 @@
   height: 70%;
 
   @media screen and (min-width: 768px) {
-    padding: 30px;
-    max-width: 760px;
+    max-width: 1000px;
   }
 }
 
@@ -35,9 +34,4 @@
   border: none;
   cursor: pointer;
   font-size: 20px;
-
-  @media screen and (min-width: 768px) {
-    top: 5px;
-    right: 5px;
-  }
 }

@@ -17,7 +17,7 @@ const Project = ({ imageSrc, altText }) => {
         type="button"
         aria-label="Open project overview"
       >
-        overview
+        {<img className={styles.project__imageBlock} src={imageSrc} alt={altText} />}
       </button>
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <img className={styles.project__image} src={imageSrc} alt={altText} />

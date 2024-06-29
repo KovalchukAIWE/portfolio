@@ -1,20 +1,5 @@
-.project {
-  width: 200px;
-  height: 150px;
-  border-radius: 8px;
+.projects {
   display: flex;
-  align-items: center;
+  gap: 20px;
   justify-content: center;
-  background-color: white;
-
-  &__button {
-    border: none;
-    outline: none;
-    background-color: transparent;
-    cursor: pointer;
-  }
-
-  &__image {
-    width: 100%;
-  }
 }
