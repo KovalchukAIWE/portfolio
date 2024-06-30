@@ -8,7 +8,7 @@ const Intro = () => {
           <div className="col-12">
             <div className={styles.intro__content}>
               <h2 className={styles.intro__title}>
-                Hi, I’m Andrii. Nice to meet you.
+                Hi, I am Andrii. Nice to meet you.
               </h2>
               <p className={styles.intro__text}>
                 Front-end Developer with extensive experience in crafting
