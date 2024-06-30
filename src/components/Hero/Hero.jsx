@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import styles from "./Hero.module.scss";
 import imageOne from "../../images/code-thinking.svg";
 import imageTwo from "../../images/coding.svg";
 import imageThree from "../../images/developer.svg";
@@ -10,6 +9,7 @@ import imageEight from "../../images/user.svg";
 import imageNine from "../../images/version-control.svg";
 import avatar from "../../images/myAvatar.svg";
 import Marquees from "../Marquee/Marquee";
+import styles from "./Hero.module.scss";
 
 const Hero = () => {
   return (
