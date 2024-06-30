@@ -7,10 +7,11 @@
   justify-content: center;
   background-color: white;
   overflow: hidden;
+  transition: transform .3 ease-in;
 
   &:hover {
-      transform: scale(1.1);
-    }
+    transform: scale(1.1);
+  }
 
   &__button {
     border: none;

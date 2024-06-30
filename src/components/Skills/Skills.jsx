@@ -47,6 +47,7 @@ const Skills = () => {
                     </li>
                     <li className={styles.skills__blockItem}>Yup</li>
                     <li className={styles.skills__blockItem}>AOS</li>
+                    <li className={styles.skills__blockItem}>MongoDB</li>
                     <li className={styles.skills__blockItem}>Lottie</li>
                     <li className={styles.skills__blockItem}>
                       React Fast Marquee

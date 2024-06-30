@@ -35,6 +35,10 @@
     position: absolute;
     animation: fadeInOut infinite;
     opacity: 0;
+
+    @media screen and (max-width: 576px) {
+      width: 50px;
+    }
   }
 
   &__imageOne {
@@ -59,18 +63,40 @@
     right: 220px;
     bottom: 50px;
     animation-duration: 7s;
+
+    @media screen and (max-width: 991px) {
+      right: 100px;
+    }
+
+    @media screen and (max-width: 576px) {
+      right: 180px;
+    }
   }
 
   &__imageFive {
     left: 200px;
     bottom: 30px;
     animation-duration: 3s;
+
+    @media screen and (max-width: 991px) {
+      left: 60px;
+    }
+
+    @media screen and (max-width: 576px) {
+      left: auto;
+      right: 50px;
+      bottom: 155px;
+    }
   }
 
   &__imageSix {
     left: -30px;
     top: 200px;
     animation-duration: 4.5s;
+
+    @media screen and (max-width: 576px) {
+      left: 10px;
+    }
   }
 
   &__imageSeven {
@@ -89,6 +115,10 @@
     right: 0;
     bottom: 0;
     animation-duration: 7.5s;
+
+    @media screen and (max-width: 576px) {
+      bottom: 30px;
+    }
   }
 
   @keyframes fadeInOut {

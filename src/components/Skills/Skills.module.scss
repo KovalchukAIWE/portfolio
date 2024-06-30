@@ -6,6 +6,10 @@
     background-color: white;
     padding: 50px;
     box-shadow: 0 6px 8.3px 6px rgba(95, 95, 95, 0.04);
+
+    @media screen and (max-width: 576px) {
+      padding: 16px;
+    }
   }
 
   &__title {
@@ -28,8 +32,8 @@
     gap: 20px;
 
     @media screen and (max-width: 991px) {
-        flex-direction: column;
-      }
+      flex-direction: column;
+    }
   }
 
   &__block {
@@ -38,6 +42,10 @@
     border-radius: 8px;
     color: white;
     width: 100%;
+
+    @media screen and (max-width: 576px) {
+      padding: 8px;
+    }
   }
 
   &__blockTitle {

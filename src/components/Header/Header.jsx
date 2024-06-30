@@ -4,10 +4,18 @@ import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <div className={styles.header}>
-      <Logo />
-      <Contacts />
-    </div>
+    <header className={styles.header}>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className={styles.header__wrapper}>
+              <Logo />
+              <Contacts />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 

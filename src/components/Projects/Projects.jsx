@@ -40,12 +40,17 @@ const Projects = () => {
           focus: "center",
           gap: 15,
           breakpoints: {
-            991: {},
-            767: {
+            1399: {
+              perPage: 4,
+            },
+            991: {
               perPage: 3,
             },
+            767: {
+              perPage: 2,
+            },
             575: {
-              perPage: 1,
+              perPage: 1.5,
             },
           },
         }}

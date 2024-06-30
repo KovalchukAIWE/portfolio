@@ -1,5 +1,9 @@
 .header {
-  display: flex;
-  justify-content: space-between;
   background-color: #4d7e86;
+  
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
 }

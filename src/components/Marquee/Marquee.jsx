@@ -16,6 +16,7 @@ const Marquees = () => {
       <p className={styles.marquee__item}>React Hooks</p>
       <p className={styles.marquee__item}>Redux</p>
       <p className={styles.marquee__item}>Rest API</p>
+      <p className={styles.marquee__item}>MongoDB</p>
       <p className={styles.marquee__item}>Laravel Blade</p>
       <p className={styles.marquee__item}>Git</p>
       <p className={styles.marquee__item}>Figma</p>
