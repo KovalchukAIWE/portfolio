@@ -11,7 +11,7 @@ const Intro = () => {
                 Hi, I am Andrii. Nice to meet you.
               </h2>
               <p className={styles.intro__text}>
-                Front-end Developer with extensive experience in crafting
+                Front-end Developer with extensive experience in creating
                 responsive, high-performance websites and applications. Adept in
                 HTML, CSS, JavaScript, React, and modern development tools.
                 Committed to clean, maintainable code and exceptional user
