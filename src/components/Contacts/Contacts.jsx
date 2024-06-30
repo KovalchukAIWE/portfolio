@@ -16,6 +16,15 @@ const Contacts = () => {
           kovalchukaiwe@gmail.com
         </a>
       </p>
+      <p>
+        <a
+          className={styles.contacts__info}
+          href="https://www.linkedin.com/in/andrii-kovalchuk-frontend/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+      </p>
     </div>
   );
 };
