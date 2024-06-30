@@ -1,16 +1,16 @@
-import styles from "./Intro.module.scss";
+import styles from "./Introduction.module.scss";
 
-const Intro = () => {
+const Introduction = () => {
   return (
-    <section className={styles.intro}>
+    <section className={styles.introduction}>
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className={styles.intro__content}>
-              <h2 className={styles.intro__title}>
+            <div className={styles.introduction__content}>
+              <h2 className={styles.introduction__title}>
                 Hi, I am Andrii. Nice to meet you.
               </h2>
-              <p className={styles.intro__text}>
+              <p className={styles.introduction__text}>
                 Front-end Developer with extensive experience in creating
                 responsive, high-performance websites and applications. Adept in
                 HTML, CSS, JavaScript, React, and modern development tools.
@@ -26,4 +26,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default Introduction;
