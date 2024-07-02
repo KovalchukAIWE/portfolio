@@ -32,6 +32,8 @@ const Skills = () => {
                     <li className={styles.skills__blockItem}>Redux</li>
                     <li className={styles.skills__blockItem}>Rest API</li>
                     <li className={styles.skills__blockItem}>Laravel Blade</li>
+                    <li className={styles.skills__blockItem}>Vitejs</li>
+                    <li className={styles.skills__blockItem}>MySQL</li>
                   </ul>
                 </div>
                 <div className={styles.skills__block}>

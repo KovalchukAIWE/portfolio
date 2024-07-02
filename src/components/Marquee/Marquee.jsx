@@ -17,6 +17,7 @@ const Marquees = () => {
       <p className={styles.marquee__item}>Redux</p>
       <p className={styles.marquee__item}>Rest API</p>
       <p className={styles.marquee__item}>MongoDB</p>
+      <p className={styles.marquee__item}>MySQL</p>
       <p className={styles.marquee__item}>Laravel Blade</p>
       <p className={styles.marquee__item}>Git</p>
       <p className={styles.marquee__item}>Figma</p>
@@ -31,6 +32,7 @@ const Marquees = () => {
       <p className={styles.marquee__item}>Splide.js</p>
       <p className={styles.marquee__item}>Chart.js</p>
       <p className={styles.marquee__item}>Axios</p>
+      <p className={styles.marquee__item}>Vitejs</p>
     </Marquee>
   );
 };
